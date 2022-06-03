@@ -1,0 +1,12 @@
+<div class="dropdown">
+    <button class="dropbtn">
+        <img src="../../assets/menu.jpg" width="40px" alt="Menu White">
+        <img src="../../assets/greymenu.png" width="40.9px" class = "img-top" alt="Menu Grey">
+    </button>
+
+    <div class="dropdown-content">
+        <div *ngFor="let out of outs">
+             <a href="{{out.link}}" target="_blank"> {{ out.name }}</a>
+        </div>
+    </div>
+  </div>
