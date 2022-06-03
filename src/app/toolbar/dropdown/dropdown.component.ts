@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Link } from '../model/link';
-import { OUTS } from '../../data';
+import { Link } from '../../model/link';
+import { OUTS } from '../../../data';
 
 @Component({
   selector: 'app-dropdown',
